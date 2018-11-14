@@ -1,0 +1,74 @@
+<div class="panel panel-default">
+<div class="panel-body">
+<h4>Q$num. $reference</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">similarity</th>
+            <th scope="col">grammaticality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>$hypothesis1</td>
+            <td>
+            <div class="radio-inline"><input id="sim$num-$model1-1" name="sim-$model1-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="sim$num-$model1-2" name="sim-$model1-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="sim$num-$model1-3" name="sim-$model1-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+            <td>
+            <div class="radio-inline"><input id="gram$num-$model1-1" name="gram-$model1-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="gram$num-$model1-2" name="gram-$model1-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="gram$num-$model1-3" name="gram-$model1-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>$hypothesis2</td>
+            <td>
+            <div class="radio-inline"><input id="sim$num-$model2-1" name="sim-$model2-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="sim$num-$model2-2" name="sim-$model2-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="sim$num-$model2-3" name="sim-$model2-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+            <td>
+            <div class="radio-inline"><input id="gram$num-$model2-1" name="gram-$model2-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="gram$num-$model2-2" name="gram-$model2-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="gram$num-$model2-3" name="gram-$model2-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>$hypothesis3</td>
+            <td>
+            <div class="radio-inline"><input id="sim$num-$model3-1" name="sim-$model3-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="sim$num-$model3-2" name="sim-$model3-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="sim$num-$model3-3" name="sim-$model3-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+            <td>
+            <div class="radio-inline"><input id="gram$num-$model3-1" name="gram-$model3-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="gram$num-$model3-2" name="gram-$model3-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="gram$num-$model3-3" name="gram-$model3-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>$hypothesis4</td>
+            <td>
+            <div class="radio-inline"><input id="sim$num-$model4-1" name="sim-$model4-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="sim$num-$model4-2" name="sim-$model4-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="sim$num-$model4-3" name="sim-$model4-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+            <td>
+            <div class="radio-inline"><input id="gram$num-$model4-1" name="gram-$model4-$num" required="true" type="radio" value="1" /> 1</div>
+            <div class="radio-inline"><input id="gram$num-$model4-2" name="gram-$model4-$num" required="true" type="radio" value="2" /> 2</div>
+            <div class="radio-inline"><input id="gram$num-$model4-3" name="gram-$model4-$num" required="true" type="radio" value="3" /> 3</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>

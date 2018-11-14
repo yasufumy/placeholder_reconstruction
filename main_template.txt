@@ -1,0 +1,43 @@
+<section class="container" id="Survey">
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary">
+<div class="panel-heading">
+    <strong>Survey Instructions</strong>
+</div>
+<div class="panel-body" id="instructionBody">
+<p>This is the instruction for Generated Sentence Evaluation:</p>
+
+<ul>
+    <li>Compare the Question Title with each sentence in the table (option 1 to 4)</li>
+    <li>Evaluate the similarity between the Question Title and each sentence. Give the scale in range of 1 to 3 (1 is lowest, 3 is highest)</li>
+    <li>Evaluate the grammaticality (how much the grammar of the sentence is correct). Give the scale in range of 1 to 3 (1 is lowest, 3 is highest)</li>
+    <li><strong>DO NOT answer this survey if you have already completed&nbsp;other&nbsp;Auto-generated sentence quality surveys. Otherwise your answer will be rejected.&nbsp;</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- End Instructions --><!-- Survey Layout -->
+
+<div class="row" id="workContent">
+<div class="col-sm-12">
+$body
+</div>
+</div>
+<!-- End Survey Layout --></section>
+<!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" integrity="sha384-IS73LIqjtYesmURkDE9MXKbXqYA8rvKEp/ghicjem7Vc3mGRdQRptJSz60tvrB6+" rel="stylesheet" /><!-- Open internal style sheet -->
+<style type="text/css">#collapseTrigger{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+}
+#submitButton{
+  white-space: normal;
+}
+.image{
+  margin-bottom: 15px;
+}
+</style>
+<!-- Close internal style sheet --><!-- External JS references --><script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4" crossorigin="anonymous"></script>
